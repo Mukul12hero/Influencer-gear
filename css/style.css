@@ -19,9 +19,10 @@ header {}
     padding: 75px 0px 20px 0px;
 }
 
-.header-left h2 {
+.header-left h2{
     font-weight: 700;
     font-size: 24px;
+    color: gold;
 }
 
 nav ul {
@@ -65,14 +66,15 @@ ul li {
 }
 
 .banner-image {
+    margin-left: 120px;
+}
+
+.banner-image img {
     width: 460px;
     height: 460px;
     border: 2px solid lightgray;
     border-radius: 230px;
-    margin-left: 120px;
 }
-
-.banner-image img {}
 
 .button1 {
     border: none;
@@ -284,12 +286,16 @@ footer ul li:nth-child(1) {
 /* footer part end*/
 
 @media screen and (max-width: 576px) {
-    .header-title {
-        margin-left: 80px;
+    .header-left h2{
         color: red;
+    }
+    .header-left{
+        display: flex;
+        justify-content: center;
     }
 
     .header-container {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 20px 0px;
@@ -303,14 +309,26 @@ footer ul li:nth-child(1) {
         margin-left: 20px;
     }
 
-    .banner-details {
-        margin: 0;
-        padding: 0px 10px;
-    }
-
     .banner-details h1 {
         margin: 20px 0px;
     }
+
+    .banner-details{
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 0px 10px;
+    }
+
+    .banner-image{
+  
+    }
+
+    .banner-image img{
+        width: 250px;
+        height: 250px;
+        border: none;
+    }
+
 
     .banner-container {
         width: 100%;
@@ -337,21 +355,19 @@ footer ul li:nth-child(1) {
         width: 100%;
     }
 
-
-    .banner-image {
-       width: 100%;
-    }
-
     .display-container ul li {
         margin: 0px;
     }
-    .display-container ul{
-      justify-content: flex-start;
+
+    .display-container ul {
+        justify-content: flex-start;
     }
+
     .more {
-        text-align: center; 
+        text-align: center;
     }
-    .product-details button{
+
+    .product-details button {
         margin-left: 160px;
     }
 }
