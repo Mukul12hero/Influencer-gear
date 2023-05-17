@@ -1,0 +1,288 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.fa-arrow-right{
+    color: white;
+}
+
+header{
+ 
+}
+
+.header-container{
+    width: 1108px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0px 20px 0px;
+}
+
+.header-left h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+ul li{
+    margin-left: 34px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* banner part start */
+
+.banner{
+   margin-top: 20px;
+}
+
+.banner-container{
+    width: 1108px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.banner-details{
+    margin-top: 60px;
+}
+
+.banner-details h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.banner-details p{
+    color: #3A3A3A;
+}
+
+.banner-image{
+   width: 460px;
+   height: 460px;
+   border: 2px solid lightgray;
+   border-radius: 230px;
+   margin-left: 120px;
+}
+
+.banner-image img{
+  
+}
+
+.button1{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color:#E02C6D;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* display part start */
+
+.display{
+    margin-bottom: 50px;
+}
+
+.display-container{
+    width: 1110px;
+    height: 110px;
+    margin: 0 auto;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.display-container ul{
+    display: flex;
+    
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.display-container ul li{
+    padding: 0px 10px;
+}
+
+
+/* collection area start */
+
+.collection-area{
+    margin: 100px 0px;
+}
+
+.collection-container{
+   width: 1020px;
+   margin: 0 auto;
+   background-color: ;
+   
+}
+
+.collection-title{
+   text-align: center;
+   font-size: 28px;
+   font-weight: 600;
+   margin-top: 20px;
+   padding-top: 20px;
+   color: #3A3A3A;
+   margin-bottom: 40px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collection{
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow:  0 0 25px  rgba(0,0,0,0.3);
+}
+
+.collection-details h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.collection-details h3{
+    font-family: ;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.collection-details p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin: 5px 0px;
+
+}
+
+.rating ul{
+    padding: 0px;
+}
+
+.rating ul li{
+    display: inline;
+    margin-left: 0px;
+}
+
+.fa-star{
+    color: #FB8200;
+    font-size: 16px;
+}
+.fa-star-half-stroke{
+    color: #FB8200;
+
+}
+
+.rating-score{
+    color:#5E6366;
+    font-size: 14px;
+}
+
+.more{
+    color: #E02C6DDE;
+    text-align: end;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+/* collection area end */
+
+/* prodcast area start */
+
+.products-area{
+    margin: 50px 0px;
+}
+
+.product-container{
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.product-image{
+    margin-right: 80px;
+}
+
+.product-image img{
+    width: 404px;
+    height: 270px;
+}
+
+.product-feature{
+    margin-right: 20px;
+}
+
+.product-details h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 25px;
+
+}
+.product-details p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+/* prodcast area end */
+
+/* footer part start */
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #0A0826;
+    color: white;
+    padding: 5px;
+}
+
+footer h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li{
+    margin-left: 34px;
+    font-size: 20px;
+}
+
+footer ul li:nth-child(1){
+    margin: 0;
+}
+
+/* footer part end*/
+
